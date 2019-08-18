@@ -2,6 +2,7 @@ import openpyxl as op
 import json
 from tkinter import *
 w=Tk()
+#specially for gstr1 b2b data import
 def callback():
     global data
     data=txt.get()
